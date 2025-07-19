@@ -23,16 +23,6 @@ A secure and scalable authentication microservice built with **NestJS**, support
 - **API Docs**: [Swagger](https://swagger.io/)
 - **Containerization**: [Docker](https://www.docker.com/), [Docker Compose](https://docs.docker.com/compose/)
 
----
-
-### 📑 API Docs
-
-Access all available routes via Swagger:
-
-    http://localhost:3000/api-doc
-
----
-
 ## 🧠 Why MongoDB?
 
 MongoDB provides a flexible document structure ideal for storing user-related data like phone numbers, preferences, login metadata, and future profile extensions. It’s a great fit for authentication services that may evolve and scale without strict relational constraints.
@@ -51,3 +41,12 @@ MongoDB provides a flexible document structure ideal for storing user-related da
 ```bash
 docker-compose up --build
 ```
+---
+
+### 📑 API Docs
+
+Access all available routes via Swagger:
+
+    http://localhost:3000/api-doc
+
+---
