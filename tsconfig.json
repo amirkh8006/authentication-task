@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@decorators/*": ["src/common/decorators/*"],
+      "@dto/*": ["src/common/dto/*"],
+      "@filters/*": ["src/common/filters/*"],
+      "@guards/*": ["src/common/guards/*"],
+      "@interceptors/*": ["src/common/interceptors/*"],
+      "@utils/*": ["src/common/utils/*"],
+      "@static/*": ["src/common/static/*"],
+      "@interfaces/*": ["src/database/interfaces/*"],
+      "@models/*": ["src/database/models/*"],
+      "@modules/*": ["src/modules/*"],
+      "@database/*": ["src/database/*"]
+    },
+    "resolveJsonModule": true
+  }
+}

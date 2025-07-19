@@ -1,0 +1,13 @@
+{
+    "UNAUTHORIZED": "Unauthorized: Access is denied.",
+    "INVALID_TOKEN": "Invalid token.",
+    "EXPIRED_TOKEN": "Token is expired.",
+    "OTP_SENT": "The OTP has already been sent.",
+    "SMS_SENT_SUCCESSFULLY": "OTP successfully sent.",
+    "VERCODE_EXPIRED": "Verification code has expired.",
+    "INCORRECT_VERCODE": "The verification code is incorrect.",
+    "USER_NOT_FOUND": "User Not Found.",
+    "LOGIN_SUCCESSFUL": "Login successful.",
+    "LOGOUT_SUCCESSFUL": "Logout successful.",
+    "DATA_FETCHED": "Data successfully fetched"
+}
